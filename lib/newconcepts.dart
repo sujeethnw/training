@@ -52,4 +52,32 @@ void main(){
   final anim=Animal();
   anim.fn();
 }*/
+/*mixin height{
+  int he=12;
+}
+class Person with height{
+  void fn(){
+    print(he);
+  }
+}
+class Women extends Person{
+
+}
+void main(){
+  final men=Person();
+  men.fn();
+
+  final girl=Women();
+  girl.fn();
+}*/
+void main(){
+  String sk='hi welcome to complex';
+  sk=sk.cap();
+  print(sk);
+}
+extension Capitalise on String{
+  String cap(){
+    return this[0].toUpperCase() + substring(1);
+  }
+}
 
