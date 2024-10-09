@@ -1,7 +1,8 @@
 import 'dart:collection';
 import 'dart:io';
-import 'dart:nativewrappers/_internal/vm/lib/mirrors_patch.dart';
-void main() {
+//import 'dart:nativewrappers/_internal/vm/lib/mirrors_patch.dart';
+/*void main() {
+
   /* print("enter the num");
   int n=int.parse(stdin.readLineSync()!);
   print("$n");
@@ -118,14 +119,27 @@ for(i=1;i<=10;i++) {
   sum = sum + 1;
 }
  print(sum);*/
-  student obj=new student();
+ /* student obj=new student();
   obj.maths='45';
 }
 class student{
   double maths;
   double eng;
   double csc;
-}
+}*/}*/
+    /*int factorial(int num){
+    if(num<=1){
+    return 1;}
+    else{
+      return num*factorial(num-1);
+    }
+    }
+    void main(){
+      var num=5;
+      var fact=factorial(num);
+      print("Factorial of 5 is ${fact}");
+    }*/
+
 
 
 
