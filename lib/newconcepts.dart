@@ -70,7 +70,7 @@ void main(){
   final girl=Women();
   girl.fn();
 }*/
-void main(){
+/*void main(){
   String sk='hi welcome to complex';
   sk=sk.cap();
   print(sk);
@@ -79,5 +79,38 @@ extension Capitalise on String{
   String cap(){
     return this[0].toUpperCase() + substring(1);
   }
+}*/
+/*class Relative{
+  void father(){
+    print('lead');
+  }
 }
+class Family extends Relative{
+
+  void father(){
+    print("hi");
+  }
+}
+  class Brother extends Relative{
+
+  void father(){
+    print("hi");
+  }
+
+}
+
+
+/*class Fam extends Relative{
+  void father(){
+   print('main');
+  }
+}*/
+  void main(){
+    Relative re=Relative();
+    re.father();
+}*/
+
+
+
+
 
