@@ -139,6 +139,15 @@ class student{
       var fact=factorial(num);
       print("Factorial of 5 is ${fact}");
     }*/
+/*void main(){
+  add(10,20);
+  print('$add()');
+}
+int add(int a,int b){
+  int c=a+b;
+  return c;
+}*/
+
 
 
 
