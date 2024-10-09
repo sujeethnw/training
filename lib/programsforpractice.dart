@@ -63,6 +63,21 @@ map3.addAll(op);
 map3.addAll(no);
 print(map3);*/
 
+  /*void main() {
+    Pro addition=add;
+    int Function(int,int) multiplication=mul;
+    print("1+2=${addition(1,2)} 1*2=${multiplication(1,2)}");
+
+  }
+  typedef INT=int;
+  typedef Studentdb=Annauniversitythirdyearstudentdatabase;
+  typedef Pro=int Function(int,int);
+  int add(int a,int b)=>a+b;
+  int mul(int c,int d)=>c*d;
+  class Annauniversitythirdyearstudentdatabase{
+
+  }*/
+
 
 
 
