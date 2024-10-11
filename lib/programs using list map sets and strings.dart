@@ -1,0 +1,36 @@
+import  'dart:collection';
+void main(){
+  var list = [1, 2, 3];
+print("$list");
+String n = "hi";
+var s = "er";
+print(s is String);
+print(s is! String);
+var sk=["we","rt","qw"];
+var ti={"key:value","odd:even"};
+print("$ti");
+print("$sk");
+print(sk[1]);
+print("$sk"+"$ti");
+Queue variable=new Queue();
+variable.add("Sk");
+variable.add(1);
+variable.add("5");
+print("$variable");
+  List<int> num=[1,2,3];
+  print(num);
+  Queue vari=new Queue();
+  vari.add(2);
+  vari.add(4);
+  vari.add("Sujeeth");
+  print(vari);
+  var ok={"hi":"to"};
+  print(ok);
+  var oo=new Map();
+  oo['username']='admin';
+  print(oo);
+  oo["hi"]="bye";
+  print(oo);
+  var op=new Map();
+  op["talk"]='dont';
+  print(op);}
