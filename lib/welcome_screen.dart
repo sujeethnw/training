@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:training/custom.dart';
 import 'package:training/main.dart';
+import 'package:training/slash_screen.dart';
 import 'login_screen.dart';
 
 class Screen extends StatelessWidget {

@@ -1,15 +1,23 @@
 import 'package:flutter/material.dart';
+import 'package:training/statefull_widgets.dart';
+
+import 'login_screen.dart';
+//import 'package:flutter/rendering.dart';
+
+/*import 'login_screen.dart';
+import 'widgets.dart';
 import 'package:training/login_screen.dart';
 import 'package:training/newscreen.dart';
 import 'package:training/widgets.dart';
 import 'constants.dart';
 import 'login_screen.dart';
+import 'mixin.dart';
 import 'welcome_screen.dart';
 import 'custom.dart';
 
-import 'package:training/newscreen.dart.';
+import 'package:training/newscreen.dart.';*/
 
-void main() {
+/*void main() {
   runApp(MyApp());
 }
 
@@ -20,7 +28,7 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
-      home: const Loginscreen(),
+      home: Loginscreen(),
     );
   }
 }
@@ -46,7 +54,7 @@ class Screen extends StatelessWidget {
           Column(
             mainAxisAlignment: MainAxisAlignment.center,
             children: [
-              /*Align(
+              Align(
                 alignment: Alignment.bottomCenter,
                 child: Text(
                   "YOU HAVE SUCCESSFULLY COMPLETED YOUR LOGIN PROCESS",
@@ -56,7 +64,7 @@ class Screen extends StatelessWidget {
                       color: Colors.black),
                 ),
               ),*/
-              Align(
+            /*  Align(
                 alignment: Alignment.centerRight,
                 child: TextField(
                   decoration: InputDecoration(
@@ -116,7 +124,6 @@ class Screen extends StatelessWidget {
                     fontWeight: FontWeight.bold,
                     color: Colors.cyanAccent),
               ),
-
               onPressed: () {
                 floatingActionButtonLocation:
                 FloatingActionButtonLocation.centerFloat;
@@ -131,9 +138,9 @@ class Screen extends StatelessWidget {
       ),
     );
   }
-}
+}*/
 
-class Slashscreen extends StatelessWidget {
+/*class Slashscreen extends StatelessWidget {
   const Slashscreen({super.key});
 
   @override
@@ -165,4 +172,56 @@ class Slashscreen extends StatelessWidget {
       ]),
     );
   }
-}
+}*/
+
+/*class MyApp extends StatelessWidget {
+  const MyApp({super.key});
+
+  @override
+  Widget build(BuildContext context) {
+    return MaterialApp(
+      home: Homepage(),
+    );
+  }
+}*/
+
+/*class Homepage extends StatefulWidget {
+  const Homepage({super.key});
+
+  @override
+  State<Homepage> createState() => _HomepageState();
+}*/
+
+/*class _HomepageState extends State<Homepage> {
+  Color containerColor = Colors.black;
+  @override
+  Widget build(BuildContext context) {
+    //Color containerColor = Colors.black;
+    return Scaffold(
+      body: Container(
+          color: containerColor,
+          alignment: Alignment.center,
+          child: ElevatedButton(
+            onPressed: () {
+              setState(() {
+                containerColor = Colors.orange;
+              });
+            },
+            child: Text("CLICK"),
+          )),
+    );
+  }
+}*/
+/*class MyApp extends StatelessWidget {
+  const MyApp({super.key});
+
+  @override
+  Widget build(BuildContext context) {
+    return Scaffold(
+      body: Stack(
+        children: [Image.asset('assests/images/wallpaper.jpg'),
+     ] )
+    );
+  }
+}*/
+

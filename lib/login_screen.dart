@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:training/constants.dart';
 import 'package:training/main.dart';
+import 'package:training/welcome_screen.dart';
 //import 'package:training/newscreen.dart';
 
 class Loginscreen extends StatelessWidget {

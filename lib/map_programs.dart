@@ -9,5 +9,7 @@ void main() {
   thirdMap.addAll(secondMap);
 
   print(thirdMap);*/
-
+  final List<String> fruits = <String>['bananas', 'apples', 'oranges'];
+  fruits.sort();
+  print(fruits);
 }
